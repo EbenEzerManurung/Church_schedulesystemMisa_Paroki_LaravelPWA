@@ -120,7 +120,7 @@ The system supports **five user roles** with distinct access levels: Super Admin
 
 The application follows a **modular MVC (Model-View-Controller)** architecture with clear separation of concerns between presentation, business logic, and data.
 
-## 🗂️ Screenshot:
+# Screenshots
 ## Login: 
 <img width="1861" height="952" alt="image" src="https://github.com/user-attachments/assets/a293bd0d-5c23-4872-ac42-56986ae75c5f" />
 ## Dashboard Superadmin: 
