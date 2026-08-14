@@ -1,18 +1,19 @@
 # ⛪️ Church_schedulesystemMisa_Paroki_LaravelPWA
 
-[![Laravel](https://img.shields.io/badge/Laravel-13.14.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-13.9.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![PWA](https://img.shields.io/badge/PWA-Disabled-lightgrey?style=for-the-badge)](https://web.dev/progressive-web-apps/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 ---
 
 ## 📋 Overview
 
-**Church Assignment Management System** is a web‑based application built with **Laravel 13.14.0** and **Tailwind CSS**, designed to centrally manage service assignments within a church environment. It allows super administrators, diocese administrators, and regular users to handle worship schedules, service duties, and monitor assignment statuses in real time.
+**Church Schedule & Assignment System – Parish Mass** is a web‑based application built with **Laravel 13.14.0** and **Tailwind CSS**. It is designed to centrally manage worship schedules and service duty assignments within a church environment, making coordination efficient and transparent.
 
-With interactive statistics, an informative dashboard, and role‑based access control, the system helps churches coordinate service personnel more efficiently and transparently.
+The system supports **five user roles** with distinct access levels: Super Admin, Diocese Admin, Church Admin, Choir PIC, and Regular User. With interactive statistics, a real‑time dashboard, and automatic filtering of upcoming assignments (next 12 days), the application simplifies service planning at the parish, diocese, and inter‑church levels.
 
 ---
 
@@ -22,8 +23,8 @@ With interactive statistics, an informative dashboard, and role‑based access c
 |-----------|-------------|
 | **Service Coordination** | Simplify scheduling and assignment of church service staff |
 | **Status Transparency** | Display assignment statuses (pending, accepted, rejected, completed) |
-| **Role‑Based Access** | Different permissions for super admin, diocese admin, and regular users |
-| **Data Visualization** | Charts and statistics to monitor performance and workload |
+| **Role‑Based Access** | Five user roles with hierarchical permissions |
+| **Data Visualization** | Charts and statistics to monitor workload and performance |
 | **Upcoming Reminders** | Show assignments within the next 12 days |
 | **Operational Efficiency** | Prevent schedule conflicts and ensure staff availability |
 | **Modern & Responsive** | Comfortable experience on desktop, tablet, and mobile |
@@ -35,7 +36,7 @@ With interactive statistics, an informative dashboard, and role‑based access c
 ### Backend
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| **Laravel** | 13.14.0 | PHP Framework – MVC, Routing, ORM, Authentication |
+| **Laravel** | 13.9.0 | PHP Framework – MVC, Routing, ORM, Authentication |
 | **MySQL** | 8.0+ | Relational Database |
 | **Eloquent ORM** | – | Active Record pattern for database interactions |
 
@@ -62,10 +63,12 @@ With interactive statistics, an informative dashboard, and role‑based access c
 - Secure Login / Logout
 - Middleware‑based route protection
 - Session management
-- Three user roles:
+- **Five user roles:**
   - **Super Admin** – Full system access
   - **Diocese Admin** – Manage churches within their diocese
-  - **User** – View and respond to assigned duties
+  - **Church Admin** – Manage schedules, duties, and assignments for a specific church
+  - **Choir PIC** – View and respond to assignments (e.g., choir coordinator)
+  - **Regular User** – View and accept/reject own assignments
 
 ### 📊 Dashboard
 - **Greeting** – Welcome message with user name and role
@@ -84,9 +87,9 @@ With interactive statistics, an informative dashboard, and role‑based access c
 - Compact display on the dashboard sidebar
 
 ### 📋 Duty Assignments
-- **For Regular Users**:
+- **For Regular Users & Choir PIC**:
   - View assignments given to themselves
-  - Display upcoming assignments (max 12 days ahead)
+  - Show upcoming assignments (max 12 days ahead)
   - Status: Pending / Accepted
 - **For Admins**:
   - View all assignments grouped by duty type
@@ -94,7 +97,7 @@ With interactive statistics, an informative dashboard, and role‑based access c
   - Nearest schedule per person
 - **Automatic Filter** – Only shows assignments within 12 days from today
 
-### 🏛️ Church Management (Diocese Admin)
+### 🏛️ Church Management (Diocese Admin & Church Admin)
 - List churches within the diocese
 - Show number of staff and schedules per church
 - Link to church details
@@ -114,3 +117,16 @@ With interactive statistics, an informative dashboard, and role‑based access c
 ---
 
 ## 🗂️ Application Architecture
+
+The application follows a **modular MVC (Model-View-Controller)** architecture with clear separation of concerns between presentation, business logic, and data.
+
+## 🗂️ Screenshot:
+Login: 
+<img width="1861" height="952" alt="image" src="https://github.com/user-attachments/assets/a293bd0d-5c23-4872-ac42-56986ae75c5f" />
+Dashboard Superadmin: 
+<img width="1918" height="942" alt="image" src="https://github.com/user-attachments/assets/1f2134b1-3fca-4096-a415-4088b6977778" />
+
+PWA: 
+<img width="1885" height="832" alt="image" src="https://github.com/user-attachments/assets/377023a0-86a2-4b28-9a08-60e700a51a9b" />
+
+
