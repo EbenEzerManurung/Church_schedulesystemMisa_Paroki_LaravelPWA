@@ -1,0 +1,16 @@
+{
+    "name": "Church Schedule System",
+    "short_name": "ChurchSchedule",
+    "description": "Church Schedule System",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#1e40af",
+    "background_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "64x64",
+            "type": "image/x-icon"
+        }
+    ]
+}
