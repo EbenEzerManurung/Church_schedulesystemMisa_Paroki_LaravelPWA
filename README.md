@@ -120,6 +120,48 @@ The system supports **five user roles** with distinct access levels: Super Admin
 
 The application follows a **modular MVC (Model-View-Controller)** architecture with clear separation of concerns between presentation, business logic, and data.
 
+### Steps
+
+Clone the repository
+   ```bash
+   git clone https://github.com/EbenEzerManurung/Church_schedulesystemMisa_Paroki_LaravelPWA.git
+   cd Church_schedulesystemMisa_Paroki_LaravelPWA
+
+   Navigate to the project directory:
+
+```bash
+cd Church_schedulesystemMisa_Paroki_LaravelPWA
+```
+
+Restore dependencies:
+
+```bash
+composer install
+```
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+Migrate and Seeder:
+
+```bash
+php artisan migrate --seed
+```
+
+```bash
+ npm install
+```
+
+Run the application
+```bash
+npm run dev
+```
+```bash
+php artisan ser
+or by port
+php artisan ser --port=7000
+```
+
 # Screenshots
 ## Login: 
 <img width="1861" height="952" alt="image" src="https://github.com/user-attachments/assets/a293bd0d-5c23-4872-ac42-56986ae75c5f" />
