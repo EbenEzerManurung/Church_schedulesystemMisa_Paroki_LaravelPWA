@@ -123,6 +123,7 @@ The application follows a **modular MVC (Model-View-Controller)** architecture w
 # Screenshots
 ## Login: 
 <img width="1861" height="952" alt="image" src="https://github.com/user-attachments/assets/a293bd0d-5c23-4872-ac42-56986ae75c5f" />
+
 ## Dashboard Superadmin: 
 <img width="1918" height="942" alt="image" src="https://github.com/user-attachments/assets/1f2134b1-3fca-4096-a415-4088b6977778" />
 
