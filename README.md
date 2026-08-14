@@ -1,58 +1,116 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# ⛪️ Church_schedulesystemMisa_Paroki_LaravelPWA
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-13.9.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📋 Overview
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Church Assignment Management System** is a web‑based application built with **Laravel 13.14.0** and **Tailwind CSS**, designed to centrally manage service assignments within a church environment. It allows super administrators, diocese administrators, and regular users to handle worship schedules, service duties, and monitor assignment statuses in real time.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+With interactive statistics, an informative dashboard, and role‑based access control, the system helps churches coordinate service personnel more efficiently and transparently.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🎯 Objectives
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Objective | Description |
+|-----------|-------------|
+| **Service Coordination** | Simplify scheduling and assignment of church service staff |
+| **Status Transparency** | Display assignment statuses (pending, accepted, rejected, completed) |
+| **Role‑Based Access** | Different permissions for super admin, diocese admin, and regular users |
+| **Data Visualization** | Charts and statistics to monitor performance and workload |
+| **Upcoming Reminders** | Show assignments within the next 12 days |
+| **Operational Efficiency** | Prevent schedule conflicts and ensure staff availability |
+| **Modern & Responsive** | Comfortable experience on desktop, tablet, and mobile |
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+## 🧱 Technology Stack
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+### Backend
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Laravel** | 13.14.0 | PHP Framework – MVC, Routing, ORM, Authentication |
+| **MySQL** | 8.0+ | Relational Database |
+| **Eloquent ORM** | – | Active Record pattern for database interactions |
 
-```bash
-composer require laravel/boost --dev
+### Frontend
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **Tailwind CSS** | 4.x | Utility‑first CSS framework for responsive UI |
+| **Blade Templates** | – | Laravel’s templating engine |
+| **Alpine.js** | – | Lightweight client‑side interactivity |
+| **Chart.js** | 4.x | Data visualisation (bar, doughnut, line charts) |
+| **Heroicons** | – | SVG icon set |
+| **SweetAlert2** | – | Beautiful alerts and modal dialogs |
 
-php artisan boost:install
-```
+### Additional Features
+- **Real‑time Clock** – Display current time on the dashboard
+- **Responsive Design** – Supports all screen sizes
+- **Soft Delete** – Remove data without permanent loss
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
 
-## Contributing
+## ✨ Features
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🔐 Multi‑Role Authentication
+- Secure Login / Logout
+- Middleware‑based route protection
+- Session management
+- Three user roles:
+  - **Super Admin** – Full system access
+  - **Diocese Admin** – Manage churches within their diocese
+  - **User** – View and respond to assigned duties
 
-## Code of Conduct
+### 📊 Dashboard
+- **Greeting** – Welcome message with user name and role
+- **Key Statistics** (Super Admin only):
+  - Total Dioceses, Churches, Users, and Schedules
+- **Assignment Statistics** – Pending, Accepted, Rejected, Completed
+- **Interactive Charts**:
+  - Assignment Statistics (bar)
+  - Status Distribution (doughnut)
+  - Assignments per Church (line)
+- **Real‑time Clock** – Current date and time
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 📅 Worship Schedule Management
+- View list of available worship schedules
+- Schedule name, description, and active status
+- Compact display on the dashboard sidebar
 
-## Security Vulnerabilities
+### 📋 Duty Assignments
+- **For Regular Users**:
+  - View assignments given to themselves
+  - Display upcoming assignments (max 12 days ahead)
+  - Status: Pending / Accepted
+- **For Admins**:
+  - View all assignments grouped by duty type
+  - List of assigned personnel for each duty
+  - Nearest schedule per person
+- **Automatic Filter** – Only shows assignments within 12 days from today
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🏛️ Church Management (Diocese Admin)
+- List churches within the diocese
+- Show number of staff and schedules per church
+- Link to church details
 
-## License
+### 📈 Statistics & Charts
+- **Totals & Growth** – Data for dioceses, churches, users, schedules
+- **Status Percentages** – Visual distribution of assignments
+- **Per Church** – Assignment trends per church (this month)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 🎨 Modern UI/UX
+- Responsive design with Tailwind CSS
+- Gradient stat cards
+- Smooth animations (hover, transitions)
+- Today / Tomorrow indicators on assignments
+- Informative icons
+
+---
+
+## 🗂️ Application Architecture
