@@ -121,12 +121,48 @@ The system supports **five user roles** with distinct access levels: Super Admin
 The application follows a **modular MVC (Model-View-Controller)** architecture with clear separation of concerns between presentation, business logic, and data.
 
 ## 🗂️ Screenshot:
-Login: 
+## Login: 
 <img width="1861" height="952" alt="image" src="https://github.com/user-attachments/assets/a293bd0d-5c23-4872-ac42-56986ae75c5f" />
-Dashboard Superadmin: 
+## Dashboard Superadmin: 
 <img width="1918" height="942" alt="image" src="https://github.com/user-attachments/assets/1f2134b1-3fca-4096-a415-4088b6977778" />
 
-PWA: 
+## PWA: 
 <img width="1885" height="832" alt="image" src="https://github.com/user-attachments/assets/377023a0-86a2-4b28-9a08-60e700a51a9b" />
+
+## Kesuskupan/Diocese: 
+<img width="1909" height="939" alt="image" src="https://github.com/user-attachments/assets/44acc998-2957-4694-a121-808b6b83249b" />
+
+## Detail Kesuskupan/Diocese: 
+<img width="1909" height="958" alt="image" src="https://github.com/user-attachments/assets/2215cca9-2d32-4f59-ac90-3b1339d057eb" />
+
+## Gereja/Church: 
+<img width="1897" height="928" alt="image" src="https://github.com/user-attachments/assets/011cbe38-b5f2-4477-a0af-1ea9a9d9b71d" />
+
+## Gereja-gereja dalam satu keuskupan/Churches within one diocese: 
+<img width="1918" height="931" alt="image" src="https://github.com/user-attachments/assets/42687e80-c773-4fc7-b160-6e9248a2ea2e" />
+
+## Jadwal Misa/Mass Schedule: 
+<img width="1915" height="946" alt="image" src="https://github.com/user-attachments/assets/e6f2a484-c3d0-449a-8481-5bdeab695c16" />
+
+## Tugas Kategori Pelayanan Dalam Misa/Duties Related to Service Categories During Mass: 
+<img width="1918" height="946" alt="image" src="https://github.com/user-attachments/assets/1e391b46-68e2-4ecb-9f45-37f83c913fa8" />
+
+## User PIC pelayanan memilih jadwal anggotanya/The service PIC selects the schedule for their members: 
+<img width="1908" height="943" alt="image" src="https://github.com/user-attachments/assets/485ca462-6dd9-42f2-aaab-715b612349f2" />
+
+## User PIC pelayanan memilih jadwal anggotanya/The service PIC selects the schedule for their members: 
+<img width="1908" height="943" alt="image" src="https://github.com/user-attachments/assets/485ca462-6dd9-42f2-aaab-715b612349f2" />
+
+## User anggota mengecek dashboard nya untuk melihat tanggal jadwal pelayannya/The member checks their dashboard to view the date of the scheduled service
+<img width="1911" height="940" alt="image" src="https://github.com/user-attachments/assets/58fe4072-a411-4d9b-928a-674ffb5403da" />
+
+## User dapat inisiatif mengambil jadwal pelayanan/Users can take the initiative to select a service schedule
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/ddf539ed-6df7-4101-baf3-16be907112ee" />
+
+## Detail Dashboard, Kalender liturgi
+<img width="1909" height="931" alt="image" src="https://github.com/user-attachments/assets/2ed52a36-7b49-4244-92e4-277145aa8261" />
+
+
+
 
 
