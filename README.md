@@ -163,6 +163,17 @@ The application follows a **modular MVC (Model-View-Controller)** architecture w
 ## Detail Dashboard, Kalender liturgi
 <img width="1909" height="931" alt="image" src="https://github.com/user-attachments/assets/2ed52a36-7b49-4244-92e4-277145aa8261" />
 
+# License
+
+MIT License
+
+---
+
+# Author
+
+**Eben Nezer Manurung**
+
+
 
 
 
