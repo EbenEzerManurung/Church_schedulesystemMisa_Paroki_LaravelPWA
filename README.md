@@ -1,6 +1,6 @@
 # ⛪️ Church_schedulesystemMisa_Paroki_LaravelPWA
 
-[![Laravel](https://img.shields.io/badge/Laravel-13.9.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
+[![Laravel](https://img.shields.io/badge/Laravel-13.14.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
@@ -36,7 +36,7 @@ The system supports **five user roles** with distinct access levels: Super Admin
 ### Backend
 | Technology | Version | Purpose |
 |------------|---------|---------|
-| **Laravel** | 13.9.0 | PHP Framework – MVC, Routing, ORM, Authentication |
+| **Laravel** | 13.14.0 | PHP Framework – MVC, Routing, ORM, Authentication |
 | **MySQL** | 8.0+ | Relational Database |
 | **Eloquent ORM** | – | Active Record pattern for database interactions |
 
