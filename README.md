@@ -148,14 +148,14 @@ Migrate and Seeder:
 php artisan migrate --seed
 ```
 
+Run the application:
 ```bash
  npm install
 ```
-
-Run the application
 ```bash
 npm run dev
 ```
+
 ```bash
 php artisan ser
 or by port
