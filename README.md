@@ -1,29 +1,15 @@
 
 # ⛪️ Church_schedulesystemMisa_Paroki_LaravelPWA
-
-
-
 [![Laravel](https://img.shields.io/badge/Laravel-13.14.0-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com)
-
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.x-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-
 [![Chart.js](https://img.shields.io/badge/Chart.js-4.x-FF6384?style=for-the-badge&logo=chart.js&logoColor=white)](https://www.chartjs.org/)
-
 [![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://mysql.com)
-
 [![PWA](https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
-
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
-
-
 
 ---
 
-
-
 ## 📋 Overview
-
-
 
 **Church Schedule & Assignment System – Parish Mass** is a web‑based application built with **Laravel 13.14.0** and **Tailwind CSS**. It is designed to centrally manage worship schedules and service duty assignments within a church environment, making coordination efficient and transparent.
 
