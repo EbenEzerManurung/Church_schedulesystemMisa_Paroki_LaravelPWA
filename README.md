@@ -47,55 +47,32 @@ The system supports **five user roles** with distinct access levels: Super Admin
 
 ---
 
-
-
 ## 🧱 Technology Stack
-
-
 
 ### Backend
 
 | Technology | Version | Purpose |
-
 |------------|---------|---------|
-
 | **Laravel** | 13.14.0 | PHP Framework – MVC, Routing, ORM, Authentication |
-
 | **MySQL** | 8.0+ | Relational Database |
-
 | **Eloquent ORM** | – | Active Record pattern for database interactions |
-
-
 
 ### Frontend
 
 | Technology | Version | Purpose |
-
 |------------|---------|---------|
-
 | **Tailwind CSS** | 4.x | Utility‑first CSS framework for responsive UI |
-
-| **Blade Templates** | – | Laravel’s templating engine |
-
+| **Blade Templates** | – | Laravel's templating engine |
 | **Alpine.js** | – | Lightweight client‑side interactivity |
-
 | **Chart.js** | 4.x | Data visualisation (bar, doughnut, line charts) |
-
 | **Heroicons** | – | SVG icon set |
-
 | **SweetAlert2** | – | Beautiful alerts and modal dialogs |
-
-
 
 ### Additional Features
 
 - **Real‑time Clock** – Display current time on the dashboard
-
 - **Responsive Design** – Supports all screen sizes
-
 - **Soft Delete** – Remove data without permanent loss
-
-
 
 ---
 
