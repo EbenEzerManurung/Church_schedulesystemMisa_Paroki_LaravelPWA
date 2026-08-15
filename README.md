@@ -25,13 +25,11 @@ The system supports **five user roles** with distinct access levels: Super Admin
 |-----------|-------------|
 | **Service Coordination** | Simplify scheduling and assignment of church service staff |
 | **Status Transparency** | Display assignment statuses (pending, accepted, rejected, completed) |
-| **Role‑Based Access** | Five user roles with hierarchical permissions |
+| **Role-Based Access** | Five user roles with hierarchical permissions |
 | **Data Visualization** | Charts and statistics to monitor workload and performance |
 | **Upcoming Reminders** | Show assignments within the next 12 days |
 | **Operational Efficiency** | Prevent schedule conflicts and ensure staff availability |
 | **Modern & Responsive** | Comfortable experience on desktop, tablet, and mobile |
-
----
 
 ## 🧱 Technology Stack
 
