@@ -75,17 +75,11 @@ The system supports **five user roles** with distinct access levels: Super Admin
 - Session management
 
 - **Five user roles:**
-
-&#x20; - **Super Admin** – Full system access
-
-&#x20; - **Diocese Admin** – Manage churches within their diocese
-
-&#x20; - **Church Admin** – Manage schedules, duties, and assignments for a specific church
-
-&#x20; - **Choir PIC** – View and respond to assignments (e.g., choir coordinator)
-
-&#x20; - **Regular User** – View and accept/reject own assignments
-
+  - **Super Admin** – Full system access
+  - **Diocese Admin** – Manage churches within their diocese
+  - **Church Admin** – Manage schedules, duties, and assignments for a specific church
+  - **Choir PIC** – View and respond to assignments (e.g., choir coordinator)
+  - **Regular User** – View and accept/reject own assignments
 
 
 ### 📊 Dashboard
