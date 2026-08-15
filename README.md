@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 \# ⛪️ Church\_schedulesystemMisa\_Paroki\_LaravelPWA
 
 
@@ -650,7 +650,4 @@ MIT License
 
 
 
-
-
->>>>>>> 086f7fcdad1c118601b70fd7ee6e6333944322b0
 
